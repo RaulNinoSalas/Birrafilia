@@ -32,12 +32,13 @@ ELEMENTOS Y DESCRIPCIÓN
 
 ![Maqueta para escritorio](https://rawgit.com/RaulNinoSalas/Birrafilia/master/Pliego/Maqueta%20Escritorio.png)
 
+
 El diseño final ha cambiado.
 - Hay un carrusel en el principio de la pagina para poner diferentes imagenes. Una solución para dar mas información visual con un acabado mas curioso para el usuario.
 - El menú es simple y muy practico. El logo del cliente, diferentes enlaces y un Inicar Sesion para el registro de usuarios.
 - La publicidad en versión deskop, es un carrusel. Así aumentamos la posibilidad de ingresos. Además, al ser dinamico el usuario tiene un punto donde prestar atención.
 - Debajo de la publicidad, hay un espacio para poner información de segundo nivel (enlaces a noticias propias o enlaces a webs amigas o cualquier otro tipo de idea que tenga el cliente se puede implementar en este espacio), hemos optado por enlaces a noticias propias.
-- Las pestañas para compartir la web estan fijas a la derecha de la pantalla.
+- OpenGraph: las pestañas para compartir la web estan fijas a la derecha de la pantalla (Facebook y Twitter). No esta activo. A traves de url de la web si que es posible.
 
 ![Maqueta para movile](https://rawgit.com/RaulNinoSalas/Birrafilia/master/Pliego/Maqueta%20Movil.png)
 
