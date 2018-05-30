@@ -20,12 +20,12 @@ ESPECIFICACIONES DEL CLIENTE
 
 ELEMENTOS Y DESCRIPCIÓN
 
-TÍTULO: elemento que contiene el titulo del website y una imagen descriptiva
-FOTO: foto descriptiva de la noticia
-PESTAÑAS: elementos de guiá a través de la web
-DESCRIPCIÓN DE LA NOTICIA: introducción breve de la noticia 
-PUBLICIDAD: elemento visual que contiene publicidad
-MÁS: botón de carga de mas noticias
+- TÍTULO: elemento que contiene el titulo del website y una imagen descriptiva
+- FOTO: foto descriptiva de la noticia
+- PESTAÑAS: elementos de guiá a través de la web
+- DESCRIPCIÓN DE LA NOTICIA: introducción breve de la noticia 
+- PUBLICIDAD: elemento visual que contiene publicidad
+- MÁS: botón de carga de mas noticias
 
 ![Maqueta para escritorio](https://rawgit.com/RaulNinoSalas/Birrafilia/master/Pliego/Maqueta%20Escritorio.png)
 
