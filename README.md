@@ -21,7 +21,7 @@ DESCRIPCIÓN DE LA NOTICIA: introducción breve de la noticia
 PUBLICIDAD: elemento visual que contiene publicidad
 MAS: botón de carga de mas noticias
 
-![Maqueta para escritorio](https://rawgit.com/RaulNinoSalas/WebNoticias/master/Maqueta%20Escritorio.png)
+![Maqueta para escritorio](https://rawgit.com/RaulNinoSalas/Birrafilia/master/Pliego/Maqueta%20Escritorio.png)
 
 
 ![Maqueta para movile](https://rawgit.com/RaulNinoSalas/WebNoticias/master/Maqueta%20Movil.png)
