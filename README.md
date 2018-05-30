@@ -42,3 +42,6 @@ Tasques:
 - Codifica news1.html i news2.html, pàgines que corresponen a les dues primeres noticies (darreres publicades). Quan feim clic a la notícia 1 de news.html ens va a news1.html, quan feim clic a la notícia 2 de news.html ens va a news2.html (no és necessari fer-ne més, aquesta tasca es pot automatitzar amb codi de servidor que es veurà a segon curs). HECHO
 - La plantilla o pàgina de veure una sola notícia news1.html (news2.html és idèntica) ha de contenir una imatge i un vídeo de Youtube responsive. HECHO
 - Cada pàgina ha de contenir les etiquetes meta (amb open graph) per compartir a Facebook el títol, descripció, imatge (gran), nom de l'aplicació i url de la pàgina. HECHO
+
+Cada apartat val 1 punt, a on es sumarà 2 punts de presentació i adaptabilitat a tot tipus de dispositiu.
+
