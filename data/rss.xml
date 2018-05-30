@@ -1,0 +1,24 @@
+<?xml version="1.0" encoding="UTF-8" ?>
+
+<rss version="2.0">
+  <channel>
+  <title>Birrafilia - Web de noticias e información sobre cervezas</title>
+  <link>https://rawgit.com/RaulNinoSalas/WebNoticias/master/news-master/index.html</link>
+  <description>Una web creada para y por los amantes de la cerveza donde encontraras las ultimas novedades, noticias y curiosidades del mundo del oro liquido.</description>
+  <item>
+    <title>10 de las mejores cervezas artesanas</title>
+  <link>https://rawgit.com/RaulNinoSalas/WebNoticias/master/news-master/index.html</link>
+  <description>En España hay más de 400 microcervecerías que elaboran más de un millar de marcas y resulta difícil elegir. Estas 10 no defraudarán y llevan el sello personal de su creador</description>
+  </item>
+  <item>
+    <title>Muere Antonino Fernández, creador de la Coronita</title>
+    <link>https://rawgit.com/RaulNinoSalas/WebNoticias/master/news-master/index.html</link>
+    <description>Leonés de nacimiento y mexicano por adopción, era el alma de uno de los mayores imperios cerveceros del mundo</description>
+  </item>
+  <item>
+    <title>La capital del oro verde</title>
+    <link>https://rawgit.com/RaulNinoSalas/WebNoticias/master/news-master/index.html</link>
+    <description>Carrizo de la Ribera es la capital de la pequeña comarca leonesa que produce el 99% del lúpulo con el que se elabora la cerveza española</description>
+  </item>
+  </channel>
+</rss>

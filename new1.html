@@ -1,0 +1,291 @@
+<!doctype html>
+<html lang="es">
+
+<head>
+    <!-- Required meta tags -->
+    <meta name="author" content="Raul Niño Salas" />
+    <meta name="copyright" content="Raul Niño Salas" />
+    <meta charset="utf-8">
+    <meta name="theme-color" content="#db5945">
+    <meta name="viewport" content="width=device-width, initial-scale=1, shrink-to-fit=no">
+    <title>Birrafilia - Mitos de la cerveza</title>
+    <link rel="icon" type="img/png" href="https://raw.githubusercontent.com/RaulNinoSalas/WebNoticias/master/news-master/img/slide1-min.jpg"
+    />
+    <meta name="description" content="Web de noticias e información sobre cervezas - Descubre que hay de verdad y mentira en la sabiduria popular respecto a la cerveza">
+
+    <!-- Bootstrap CSS -->
+    <link rel="stylesheet" href="https://stackpath.bootstrapcdn.com/bootstrap/4.1.1/css/bootstrap.min.css" integrity="sha384-WskhaSGFgHYWDcbwN70/dfYBj47jz9qbsMId/iRN3ewGhXQFZCSftd1LZCfmhktB"
+        crossorigin="anonymous">
+
+    <!-- Facebook   -->
+    <meta property="og:site_name" content="Birrafilia">
+    <meta property="og:url" content="https://github.com/RaulNinoSalas/WebNoticias/blob/master/news-master/new1.html">
+    <meta property="og:title" content="Mitos de la cerveza">
+    <meta property="og:image" content="https://raw.githubusercontent.com/RaulNinoSalas/WebNoticias/master/news-master/img/slide4.jpg">
+    <meta property="og:description" content="Descubre que hay de verdad y mentira en la sabiduria popular respecto a la cerveza">
+
+    <!--Twitter-->
+    <meta name="twitter:card" content="Birrafilia" />
+    <meta name="twitter:url" content="https://github.com/RaulNinoSalas/WebNoticias/blob/master/news-master/new1.html" />
+    <meta name="twitter:title" content="Mitos de la cerveza" />
+    <meta name="twitter:description" content="Descubre que hay de verdad y mentira en la sabiduria popular respecto a la cerveza"
+    />
+    <meta name="twitter:image:src" content="https://raw.githubusercontent.com/RaulNinoSalas/WebNoticias/master/news-master/img/slide4.jpg"
+    />
+
+    <!-- jQuery first, then Popper.js, then Bootstrap JS -->
+    <script src="https://code.jquery.com/jquery-3.3.1.slim.min.js" integrity="sha384-q8i/X+965DzO0rT7abK41JStQIAqVgRVzpbzo5smXKp4YfRvH+8abtTE1Pi6jizo"
+        crossorigin="anonymous"></script>
+    <script src="https://cdnjs.cloudflare.com/ajax/libs/popper.js/1.14.3/umd/popper.min.js" integrity="sha384-ZMP7rVo3mIykV+2+9J3UJ46jBk0WLaUAdn689aCwoqbBJiSnjAK/l8WvCWPIPm49"
+        crossorigin="anonymous"></script>
+    <script src="https://stackpath.bootstrapcdn.com/bootstrap/4.1.1/js/bootstrap.min.js" integrity="sha384-smHYKdLADwkXOn1EmN1qk/HfnUcbVRZyYmZ4qpPea6sjB/pTJ0euyQp0Mk8ck+5T"
+        crossorigin="anonymous"></script>
+
+</head>
+
+<body>
+    <!-- Slide -->
+    <div id="carouselExampleIndicators" class="carousel slide carousel-fade">
+        <ol class="carousel-indicators">
+            <li data-target="#carouselExampleIndicators" data-slide-to="0"></li>
+            <li data-target="#carouselExampleIndicators" data-slide-to="1"></li>
+            <li data-target="#carouselExampleIndicators" data-slide-to="2"></li>
+        </ol>
+        <div class="carousel-inner " style="height: 35vh">
+            <div class="carousel-item active">
+                <img class="d-block w-100" src="img/slide1-min.jpg" alt="First slide">
+            </div>
+            <div class="carousel-item">
+                <img class="d-block w-100" src="img/slide4-min.jpg" alt="Second slide">
+            </div>
+            <div class="carousel-item">
+                <img class="d-block w-100" src="img/slide6-min.jpg" alt="Third slide">
+            </div>
+        </div>
+        <a class="carousel-control-prev" href="#carouselExampleIndicators" role="button" data-slide="prev">
+            <span class="carousel-control-prev-icon" aria-hidden="true"></span>
+            <span class="sr-only">Anterior</span>
+        </a>
+        <a class="carousel-control-next" href="#carouselExampleIndicators" role="button" data-slide="next">
+            <span class="carousel-control-next-icon" aria-hidden="true"></span>
+            <span class="sr-only">Siguiente</span>
+        </a>
+    </div>
+
+    <!-- Barra de navegacion-->
+    <nav class="navbar navbar-dark bg-dark navbar-expand-sm sticky-top">
+        <a class="navbar-brand" href="index.html">
+            <img src="img/slide1-min.jpg" width="30" height="30" class="d-inline-block align-top rounded" alt="Logo Birrafilia"> Birrafilia
+        </a>
+        <button class="navbar-toggler " type="button" data-toggle="collapse" data-target="#navbarTogglerDemo01" aria-controls="navbarTogglerDemo01"
+            aria-expanded="false" aria-label="Toggle navigation">
+            <span class="navbar-toggler-icon"></span>
+        </button>
+        <div class="collapse navbar-collapse" id="navbarTogglerDemo01">
+            <ul class="navbar-nav mr-auto">
+                <li class="nav-item">
+                    <a class="nav-link active text" href="index.html">Inicio</a>
+                </li>
+                <li class="nav-item">
+                    <a class="nav-link" href="#">Noticias</a>
+                </li>
+            </ul>
+            <ul class="nav navbar-nav navbar-right dropleft">
+                <li class="dropdown">
+                    <a href="#" class="dropdown-toggle" data-toggle="dropdown">
+                        <b>Iniciar sesión</b>
+                        <span class="caret"></span>
+                    </a>
+                    <ul id="login" class="dropdown-menu menu fondo">
+                        <li>
+                            <div class="col-md-24">
+                                <form class=" col" method="post" action="login" accept-charset="UTF-8" id="login-nav">
+                                    <div class="form-group">
+                                        <input type="email" class="form-control" id="correo" placeholder="Email" required>
+                                    </div>
+                                    <div class="form-group">
+                                        <input type="password" class="form-control" id="Password" placeholder="Contraseña" required>
+
+                                    </div>
+                                    <div class="form-group">
+                                        <button type="submit" class="btn btn-primary btn-block">Iniciar sesión</button>
+                                    </div>
+                                    <div class="checkbox">
+                                        <label>
+                                            <input type="checkbox"> Recuerdame
+                                        </label>
+                                    </div>
+                                </form>
+                            </div>
+                        </li>
+                    </ul>
+                </li>
+            </ul>
+        </div>
+    </nav>
+
+    <!-- Texto noticia-->
+    <section class="container mt-3 pt-3 ml-5 border border-warning rounded float-left col-9">
+        <div class="text-justify text-sm-center" id="cuerpo_noticia">
+            <h1 class="text-center">Mitos de la cerveza</h1>
+            <br>
+            <p>Muchos mitos sobre como hay que tomar la cerveza si en vaso o en botella, el porque una cerveza esta “quemada”,
+                pero tranquil@ aquí te diremos lo que es Falso o Verdadero para que sigas disfrutando de tus cervezas favoritas
+                como se debe.
+            </p>
+            <h3>1. Las cervezas se dividen por color: Falso</h3>
+            <div class="entry-content">
+                <p>Principalmente se clasifican en dos ramas: lager y ale y su clasificación depende del proceso de fermentación
+                    y el tipo de levadura utilizada, no de su coloración. Diferenciarlas entre claras y oscuras simplemente
+                    nos indica el grado de tostado de la malta y por ende algunas notas de sabor que encontraremos al probarlas.
+                </p>
+
+                <img class=" d-none d-md-block float-left rounded w-50 pr-3 " src="img/slide3-min.jpg" alt="Cócteles-con-cerveza4" />
+
+                <h3>2. Lo que estás degustando no es un sabor sino un lúpulo: Verdadero</h3>
+                <p>El lúpulo es uno de los 4 ingredientes naturales y fundamentales de la cerveza y es lo que le da distintos
+                    aromas y sabores. Además, según el Centro de Información de Cerveza y Salud de España, el lúpulo contribuye
+                    a la estabilidad de la espuma, aromatiza y tiene propiedades antisépticas.</p>
+                <h3>
+                    <em>3. Las cervezas oscuras tienen más alcohol que las cervezas claras: Falso</em>
+                </h3>
+                <p>Muchas veces hemos escuchado que la cerveza oscura tiene más alcohol, la verdad es que el color no proporciona
+                    amargura o contenido de alcohol. Las levaduras, pequeños microorganismos, son los responsables del proceso
+                    de fermentación. En donde los azúcares de la malta o algún otro cereal, son transformados en alcohol.</p>
+                <h3>
+                    <em>4. El vaso sí influye: Verdadero</em>
+                </h3>
+                <p>Tomar la cerveza en botella impide que salga la carbonatación, que los aromas suban apropiadamente y que
+                    se disfrute como realmente se debe. Así que deja la botella a un lado y disfrútala en vaso. Estos cuatro
+                    son los básicos para disfrutar de los tipos de cerveza más comunes:</p>
+                <ul>
+                    <li>Tarro: Para cervezas ligeras (por ejemplo las lager), porque la carbonatación sube rápidamente.</li>
+                    <li>Vaso Pilsner: Para las cervezas de esa categoría, este vaso fue creado para lucir la novedad del color.Al
+                        ser más abierto permite que el carbono suba. Lo recomendado son dos dedos de espuma.</li>
+                    <li>Pinta: Cervezas más aromáticas como las american pale ale. También acepta las cervezas más tostadas,
+                        con toques de caramelo o chocolate.</li>
+                    <li>Chalice: Una copa especial que ayuda a retener el sabor y la espuma, es perfecta para saborearse cuando
+                        está entre los 3 y 5 grados centígrados.</li>
+                </ul>
+                <p>
+                    <strong>
+                        <img class=" d-none d-md-block float-right w-50 pl-4 rounded" src="img/slide6-min.jpg" alt="cerveza" />
+                    </strong>
+                </p>
+                <h3>5. El sabor amargo es por la temperatura: Falso</h3>
+                <p>Tanto el amargor como el sabor característico de la cerveza es proporcionado por el Lúpulo, un ingrediente
+                    natural que de acuerdo a su variedad contiene diferentes porcentajes de ácidos alfa y aceites esenciales
+                    que son desprendidos durante el proceso de elaboración y responsables del sabor.</p>
+                <h3>6. Exponer tu cerveza a la luz ocasiona un cambio drástico en el sabor: Verdadero</h3>
+                <p>Seguramente has oído hablar de una cerveza “quemada”, esto se debe a la oxidación que ocasionan los rayos
+                    UV de la luz a algunos de los compuestos del lúpulo. La oxidación es responsable del sabor amargo y desagradable
+                    que comúnmente identificamos como una cerveza “quemada”. Es por eso que las compañías cerveceras han
+                    tomado medidas preventivas y utilizan botellas color ámbar que filtran los rayos UV y te permiten disfrutar
+                    el verdadero sabor de la cerveza.</p>
+                <h3>7. Existe una cerveza para cada platillo: Verdadero</h3>
+                <p>Tal como le pasa al vino, dependiendo de lo que vayas a comer, disfrutarás más de tu platillo si lo maridas
+                    con la cerveza adecuada. Así que antes de ordenar, pregunta qué cervezas tienen y cuál te recomiendan;
+                    nada mejor que destacar los sabores de tu platillo con las infinitas combinaciones que puedes lograr
+                    con los diferentes tipos de cervezas.</p>
+            </div>
+
+            <!-- Video Youtube -->
+            <div class="container mt-4 mb-2">
+                <div class="embed-responsive embed-responsive-4by3">
+                    <iframe class="embed-responsive-item" src="https://www.youtube.com/embed/9VwLWIz9JB0" allowfullscreen></iframe>
+                </div>
+            </div>
+        </div>
+    </section>
+
+    <!-- Publicidad -->
+    <section class="container mt-3 pt-3 mr-3 border border-warning rounded col-2 d-none d-md-block">
+        <div class="row">
+            <div class="col mb-3">
+                <div id="carousel" class="carousel slide carousel-fade">
+                    <ol class="carousel-indicators">
+                        <li data-target="#carousel" data-slide-to="0"></li>
+                        <li data-target="#carousel" data-slide-to="1"></li>
+                        <li data-target="#carousel" data-slide-to="2"></li>
+                    </ol>
+                    <div class="carousel-inner " style="height: 35vh">
+                        <div class="carousel-item active">
+                            <img class="d-block w-100" src="img/pub1-min.jpg" alt="First slide">
+                        </div>
+                        <div class="carousel-item">
+                            <img class="d-block w-100" src="img/pub2-min.jpg" alt="Second slide">
+                        </div>
+                        <div class="carousel-item">
+                            <img class="d-block w-100" src="img/pub3-min.jpg" alt="Third slide">
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </div>
+        <div class="jumbotron jumbotron-fluid  mr-2 ml-2 mb-2 mt-0 ">
+            <div class="container text-center">
+                <h4 class="display-6 text-center">Noticias más leidas</h4>
+                <ul class="text-left list-group">
+                    <li class="list-group">
+                        <a class="nav-link active text" href="new1.html">Mitos de la cerveza</a>
+                    </li>
+                    <li class="list-group">
+                        <a class="nav-link active text" href="new2.html">Siete hoteles soñados</a>
+                    </li>
+                    <li class="list-group">
+                        <a class="nav-link active text" href="#">10 de las mejores cervezas artesanas</a>
+                    </li>
+                    <li class="list-group">
+                        <a class="nav-link active text" href="#">¿Eres más de copas o de cervezas? </a>
+                    </li>
+                    <li class="list-group">
+                        <a class="nav-link active text" href="#">¿Es verdad que beber cerveza quita la resaca?</a>
+                    </li>
+                </ul>
+            </div>
+        </div>
+    </section>
+
+    <div class="fixed-bottom d-none d-block d-sm-none ml-2">
+        <img src="img/pubmin1-min.jpg" width=300 alt="First slide">
+
+    </div>
+
+    <!--Pie y contactos-->
+    <div class="container row mb-5 mt-5 ml-auto mr-1 pt-5 pb-5 fixed-bottom d-none d-md-block text-right">
+        <div class="row">
+            <div class="col-11"></div>
+            <div class=" bg-warning col-1 text-center">
+                <ul class="list-inline">
+                    <li>
+                        <img class="img-responsive mt-2 mr-1" width="50" height="50" src="img/facebook.svg" alt="facebook logo" />
+                    </li>
+                    <li>
+                        <img class="img-responsive mt-2 mr-1" width="50" height="50" src="img/twitter-square.svg" alt="twitter logo" />
+                    </li>
+                </ul>
+            </div>
+        </div>
+    </div>
+
+    <div class="container fluid row mr-2 pl-5">
+        <footer class=" text-left container bg-warning mb-5 mt-5 ml-auto pt-5 pb-5 d-none d-md-block">
+            <strong>DAW, Inc.</strong>
+            <br> Carrer Caracas, 6A
+            <br> 07007 Palma, Illes Balears
+            <br>
+            <abbr title="Phone">P:</abbr>971 27 81 50
+            <strong>Raul Niño Salas</strong>
+            <br>
+            <a href="#">raulnsalas@gmail.comn</a>
+        </footer>
+    </div>
+    <br>
+    <br>
+    <br>
+    <br>
+    <br>
+    <br>
+</body>
+
+</html>
