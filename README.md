@@ -5,6 +5,8 @@ CORRECIONES:
 - Quitar los botones de leer más. - Arreglo: suprimir los botones.
 - El título sea el enlace con la noticia. - Arreglo: hacer un "a href" en la etiqueta del titulo.
 - Publicidad en versión móvil debidamente implementada. - Arreglo: recoger bien el tamaño del contenedor y poner espacio al final de la web para que la publicidad no tape el video.
+- Readme mejorado. Arreglado.
+- Github sin carpetas. Arreglado.
 - Javascript
 
 OBJETIVO
